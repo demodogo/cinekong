@@ -62,7 +62,8 @@ $("#contacto-btn").on("click", (e) => {
     validarForm(e);
     console.log(errores);
     if(errores.length === 0) {
-        $("#error-alerta").addClass("d-none")
+        $("#error-alerta").addClass("d-none");
+        alert("Datos enviados. Muchas gracias :)")
     } else if (errores.length >= 1) {
         $("#error-alerta").removeClass("d-none")
     }
