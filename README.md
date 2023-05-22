@@ -1,6 +1,6 @@
 # cinekong
 
-Patricio Soto
-Felipe Pino
-Macarena Muñoz
+Patricio Soto </br>
+Felipe Pino  </br>
+Macarena Muñoz  </br>
 Programación Web 001D - Duoc UC
