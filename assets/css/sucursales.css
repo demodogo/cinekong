@@ -1,0 +1,35 @@
+@import './global.css';
+
+.sucursales {
+    height: fit-content;
+    
+}
+
+.sucursal {
+    height: fit-content;
+    margin-top: 4vh;
+}
+
+.img-sucursal {
+    width: 20vw;
+    border-radius: 20px;
+}
+
+.title-sucursal {
+    font-family: var(--headings);
+    margin: 1vh 0;
+    color: var(--primaryColor);
+}
+
+.dir-sucursal {
+    color: rgb(131, 128, 128);
+}
+
+.sucursales .content {
+    margin: 0;
+}
+
+#map {
+    width: 40vw;
+    height: 20vh;
+}

@@ -1,0 +1,37 @@
+@import './global.css';
+
+.nosotros {
+    height: 100vh;
+    overflow: hidden;
+}
+.content {
+    height: fit-content;
+    overflow: hidden;
+}
+.avatar {
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid var(--primaryColor);
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: fit-content;
+    margin-top: 8vh;
+}
+
+.nombre {
+    color:var(---dark-gray)
+}
+
+.mail {
+    color: rgb(151, 147, 147);
+}
+
+.desc {
+    color: var(--primaryColor);
+    font-size: 0.8em;
+}

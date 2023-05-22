@@ -1,0 +1,29 @@
+@import './global.css';
+
+.contacto {
+    height: 100vh;
+    overflow: hidden;
+}
+#contact-form {
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+}
+
+#comentarios {
+    resize: none;
+}
+
+#contacto-btn {
+    background: var(--primaryColor);
+    color: var(--ivory)
+}
+
+.form-title {
+    font-family: var(--headings);
+}
+
+#alerta-char {
+    font-size: 0.8em;
+}
+
