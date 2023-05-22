@@ -1,0 +1,72 @@
+@import './global.css';
+
+.movies {
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vh 10vw;
+    padding-bottom: 8vh;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.movie img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.info {
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(8, 8, 8, 0.486);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    transform: translateY(-100%);
+    transition: all 1s;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    font-weight: 800;
+    color: var(--primaryColor);
+    padding: 2vh 2vw;
+}
+
+.desc {
+    text-align: center;
+    padding: 2vh 2vw;
+    font-weight: 700;
+    color: var(--ivory)
+}
+
+.available {
+    color: var(--ivory)
+}
+
+.buy {
+    width: 50%;
+    margin: auto;
+}
+
+.movie:hover .info {
+    transform: translateY(0%);
+}

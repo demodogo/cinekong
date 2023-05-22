@@ -1,0 +1,55 @@
+@import './global.css';
+
+.dark-mode {
+    background-color: var(--dark-gray);
+    color: var(--ivory);
+}
+
+.dark-mode .carousel-control-prev-icon,
+.dark-mode .carousel-control-next-icon {
+    filter: none;
+}
+
+.dark-mode #navbar #menu-list li {
+    background-color: var(--yellow);
+    color: var(--dark-gray);
+}
+
+.dark-mode #navbar #menu-list li a {
+    color: var(--dark-gray);
+}
+
+.dark-mode #clima span {
+    color: var(--ivory);
+}
+
+.dark-mode #footer {
+    background-color: var(--primaryColor);
+}
+
+.dark-mode #footer .footer-text {
+    color: var(--ivory);
+}
+
+.dark-mode #footer span {
+    color: black;
+}
+
+.dark-mode .content .title-sucursal {
+    color: var(--ivory);
+}
+
+.dark-mode .content .dir-sucursal {
+    color: var(--ivory);
+    opacity: 0.5;
+}
+
+.dark-mode #contacto-btn {
+    background-color: var(--ivory);
+    color: var(--primaryColor);
+    font-weight: 800;
+}
+
+.dark-mode .content .perfil .desc {
+    color: var(--ivory);
+}
